@@ -11,6 +11,7 @@
     --font-primary: 'Roboto Condensed', sans-serif;
     --complete-color: #4CAF50;
     --incomplete-color: #FF7043;
+    --course-text-color: #000000; 
 }
 
 /* General Styles */
@@ -143,7 +144,7 @@ h1 {
 
 .course {
     background: var(--secondary-color);
-    color: var(--text-color);
+    color: var(--course-text-color); 
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -157,14 +158,16 @@ h1 {
 
 .courseComplete {
     background: var(--complete-color);
+    color: var(--course-text-color);
 }
 
 .courseNoComplete {
     background: var(--incomplete-color);
+    color: var(--course-text-color); 
 }
-
 .course:hover {
     background: var(--hover-color);
+    color: var(--text-color); 
 }
 
 .boxcertificate01 {
