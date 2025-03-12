@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a homepage for the WDD-231 course">
+    <meta name="author" content="Alex Daniel Cazanobe">
+
+    <title>Home | Alex Cazanobe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/home.css">
+
+    <script src="scripts/home.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="images/profile.jpg" alt="profile picture" class="profile-photo">
+        <span class="name">Alex Daniel Cazanobe</span> 
+        
+        <button id="menu" class="nav-toggle" title="Menu">&#9776;</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber.html">Chamber</a></li>
+            <li><a href="https://github.com/alexcazanobe">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/alex-cazanobe-2a614a2b7/">LinkedIn</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <section class="card" id="work">
+            <h2>Course Work</h2>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+
+        <section class="card" id="country">
+            <h2>Argentina</h2>
+            <img src="images/Flag_of_Argentina.jpg" alt="Argentinian Flag">
+            <p>Argentina Flag</p>
+        </section>
+
+        <section class="certificate-box">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="boxButton">
+                <button class="courseButton" value="all" title="Filter Button">ALL</button>
+                <button class="courseButton" value="cse" title="Filter Button">CSE</button>
+                <button class="courseButton" value="wdd" title="Filter Button">WDD</button>
+            </div>
+            <div class="boxcertificate01 boxCourse"></div>
+            <dialog id="courses-details"></dialog>
+            <p id="totalCreditsCert01">Total Credits for Certificate 1: 0</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Alex Daniel Cazanobe, Argentina.</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
