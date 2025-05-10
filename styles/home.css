@@ -216,8 +216,8 @@ body{
 }
 
 .courseButton {
-    background-color: var(--secondary-color);
-    color: var(--font-color);
+    background-color: var(--principal-color);
+    color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
