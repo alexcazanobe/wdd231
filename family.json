@@ -1,0 +1,29 @@
+{
+    "family_name": "Cazanobe",
+    "move_in_date": "2025-05-14",
+    "number_of_people": 4,
+    "visited_by_bishpric":true,
+    "family_members": [
+        {
+            "name": "Alex Cazanobe",
+            "gender": "male",
+            "birth_date": "1997-11-10"
+        },
+        {
+            "name": "Ludmila Arbini",
+            "gender": "female",
+            "birth_date": "2001-09-07"
+        },
+        {
+            "name": "Gianna Cazanobe",
+            "gender": "female",
+            "birth_date": "2024-03-31"
+        },
+        {
+            "name": "Apolo Cazanobe",
+            "gender": "male",
+            "birth_date": "2023-03-22"
+        }
+
+    ]
+}
