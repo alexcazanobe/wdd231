@@ -1,0 +1,217 @@
+:root {
+    --primary-color: #003366;
+    --secondary-color: #007ACC;
+    --background-color: #FFFFFF;
+    --text-color: #111111;
+    --light-gray: #f5f5f5;
+    --dark-gray: #333333;
+    --border-radius: 16px;
+
+    --principal-font: 'Roboto', sans-serif;
+}
+
+/* Global box sizing */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    color: white;
+    position: relative;
+}
+
+.branding {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.branding img {
+    width: 90px;
+    height: auto;
+    display: block;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.header-title span {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#navBar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 0.5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0.5rem 1rem 0 1rem;
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color:orange
+}
+
+#hamButton {
+    display: none;
+}
+
+
+
+main {
+    padding: 1rem 2rem;
+    overflow-x: hidden;
+}
+
+/* Centered header and subtitle */
+.centered-header {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.centered-header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.centered-header p {
+    font-size: 1.2rem;
+    color: var(--dark-gray);
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* View toggle buttons */
+.buttons {
+    margin: 2rem 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.buttons button {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.buttons button:hover {
+    background: var(--primary-color);
+}
+
+/* Companies grid view */
+.companies.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.companies.grid .member-card {
+    flex: 1 1 320px;
+    max-width: 350px;
+    min-width: 260px;
+    background-color: var(--light-gray);
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 12px #0002;
+    border: 1px solid #e0e0e0;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    margin-bottom: 0;
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.companies.grid .member-card:hover {
+    box-shadow: 0 4px 24px #0003;
+    border-color: var(--secondary-color);
+}
+
+.companies.grid .member-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 10px;
+    flex-shrink: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+/* Companies list view */
+.companies.list {
+    display: block;
+}
+
+.companies.list .member-card {
+    display: block;
+    width: 100%;
+    background-color: var(--light-gray);
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 12px #0002;
+    border: 1px solid #e0e0e0;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+/* Footer styles */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer div {
+    margin-bottom: 1rem;
+}
+
+.social-media a img {
+    margin-right: 0.5rem;
+    width: 48px;
+    height: 48px;
+}
+
+.contact p, footer p {
+    margin: 0.3rem 0;
+    font-size: 1.1rem;
+}

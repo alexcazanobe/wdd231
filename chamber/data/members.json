@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Electromecánica R.I.",
+    "address": "Bahía Blanca Industrial Park, Bahía Blanca, Buenos Aires, Argentina",
+    "phone": "+54 291 4572112",
+    "website": "https://www.erisa.com.ar/",
+    "email": "info@erisa.com.ar",
+    "membership_level": 3,
+    "image": "../chamber/images/electromecanica_ri_logo.png",
+    "description": "Bahía Blanca-based company with national reach, specialized in the construction of overhead and underground power lines (low and medium voltage), public and sports lighting works, manufacturing of metal poles, electrical material distribution, and crane and equipment rental."
+  },
+  {
+    "name": "Fenestra S.A.",
+    "address": "Bahía Blanca Industrial Park, Bahía Blanca, Buenos Aires, Argentina",
+    "phone": "+54 291 4592174",
+    "website": null,
+    "email": null,
+    "membership_level": 2,
+    "image": "../chamber/images/fenestra_logo.png",
+    "description": "Company exclusively focused on the official distribution of glass, aluminum profiles, and hardware for window and curtain wall manufacturing. Main local representative of leading brands like VASA and ALCEMAR."
+  },
+  {
+    "name": "Grupo BBI S.A.",
+    "address": "Bahía Blanca Industrial Park, Bahía Blanca, Buenos Aires, Argentina",
+    "phone": "+54 291 4572112",
+    "website": null,
+    "email": "ventas@grupobbi.com.ar",
+    "membership_level": 3,
+    "image": "../chamber/images/grupo_bbi_logo.png",
+    "description": "Official agency of Linde PLC Group, engaged in the sale and distribution of industrial and medical gases, welding equipment, and supplies."
+  },
+  {
+     "name": "Profertil S.A.",
+    "address": "Road to Puerto Galván, no number, Bahía Blanca, Argentina",
+    "phone": "+54 291 459-2800",
+    "email": "contact@profertil.com.ar",
+    "website": "https://www.profertil.com.ar",
+    "image": "../chamber/images/profertil_logo.png",
+    "membership_level": 3,
+    "description": "A leading fertilizer production company supporting sustainable agriculture throughout Argentina."
+  },
+  {
+    "name": "HCI S.A.",
+    "address": "Bahía Blanca, Buenos Aires, Argentina",
+    "phone": "+54 291 4592103",
+    "website": "http://www.hci-sa.com.ar/",
+    "email": null,
+    "membership_level": 2,
+    "image": "../chamber/images/hci_logo.png",
+    "description": "Company with 20 years of experience in industrial maintenance and assembly services for petrochemical plants, power generation, refineries, and continuous process industries. Specializes in mechanical repair and furnace assembly."
+  },
+  {
+    "name": "Unipar Indupa",
+    "address": "Carrindanga Road, Km 7, Bahía Blanca, Argentina",
+    "phone": "+54 291 459-9000",
+    "email": "info@unipar.com",
+    "website": "https://www.unipar.com",
+    "image": "../chamber/images/unipar_logo.png",
+    "membership_level": 2,
+    "description": "A major chemical industry player in South America, producing chlorine, caustic soda, and PVC."
+  },
+  {
+    "name": "Orlando Lonas S.A.",
+    "address": "Av. Colón 2755, Bahía Blanca, Buenos Aires, Argentina",
+    "phone": "+54 291 6452992",
+    "website": null,
+    "email": "info@orlandolonas.com",
+    "membership_level": 1,
+    "image": "../chamber/images/orlando_lonas_logo.png",
+    "description": "Company specialized in manufacturing tarpaulins and plastic fabrics. Offers custom designs and liner production for liquid storage. Open to the public from Monday to Friday, 8:00 AM to 6:00 PM."
+  }
+]

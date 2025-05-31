@@ -1,0 +1,140 @@
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem 0;
+    }
+
+    .branding {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .header-title span {
+        font-size: 1.2rem;
+    }
+
+    #hamButton {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 2rem;
+        cursor: pointer;
+        margin-left: auto;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: var(--primary-color);
+        padding: 0;
+        margin: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        border-top: 1px solid #fff2;
+        transform: none;
+        
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav li {
+        text-align: left;
+        padding: 1rem;
+        border-bottom: 1px solid #fff2;
+    }
+
+
+
+    .companies.grid, .companies.list {
+        display: block;
+        padding: 0;
+    }
+
+    .member-card {
+        max-width: 100%;
+        min-width: 0;
+        margin: 1rem 0;
+        border-radius: var(--border-radius);
+        box-shadow: 0 2px 12px #0002;
+        border: 1px solid #e0e0e0;
+        padding: 1rem;
+        background: var(--light-gray);
+        text-align: left;
+        display: block;
+    }
+
+    .member-card img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto 1rem auto;
+        display: block;
+        object-fit: contain;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .centered-header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul.show{
+    display: flex;
+}
+
+.ham-menu{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.ham-menu span{
+    height: 5px;
+    width: 100%;
+    background-color: var(--light-gray);
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s ease;
+}
+
+.ham-menu span:nth-child(1){
+    top: 25%;
+}
+
+.ham-menu span:nth-child(3){
+    top: 75%;
+}
+
+.ham-menu.active span:nth-child(2){
+    opacity: 0;
+}
+
+.ham-menu.active span:nth-child(1){
+    top:50%;
+    transform:
+    translate(-50%, -50%) rotate(45deg);
+}
+
+.ham-menu.active span:nth-child(3){
+    top:50%;
+    transform:
+    translate(-50%, -50%) rotate(-45deg);
+}
+
+}
