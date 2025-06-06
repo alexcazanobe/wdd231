@@ -20,7 +20,7 @@
         border: none;
         font-size: 2rem;
         cursor: pointer;
-        margin-left: auto;
+        margin-left: 0.3rem;
     }
 
     nav ul {
@@ -136,5 +136,33 @@
     transform:
     translate(-50%, -50%) rotate(-45deg);
 }
+
+/* Centrar spotlight cards en mobile */
+.spotlight-card,
+.spotlight .member-card {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    padding: 1rem !important;
+    gap: 0.5rem !important;
+}
+
+.spotlight-card img,
+.spotlight .member-card img {
+    margin: 0 auto 0.5rem auto !important;
+    display: block !important;
+}
+
+/* Mejorar espaciado en Events y Forecast */
+.events h2,
+.weather-card h2 {
+    margin-bottom: 1.2rem !important;
+}
+
+.weather-card.forecast ul {
+    margin-top: 1rem !important;
+}
+
+
 
 }
