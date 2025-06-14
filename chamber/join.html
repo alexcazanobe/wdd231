@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahia Blanca Chamber Of Commerce Join Us</title>
+    <meta name="description" content="Bahia Blanca Chamber Of Commerce join page">
+    <meta name="author" content="Alex Cazanobe">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="../chamber/images/favicon.ico">
+    <!-- Facebook Open Graph -->
+    <meta property="og:title" content="Bahía Blanca Chamber of Commerce" />
+    <meta property="og:description" content="Supporting local businesses, fostering growth, and empowering entrepreneurs in Bahía Blanca." />
+    <meta property="og:image" content="https://github.com/alexcazanobe/wdd231/blob/main/chamber/images/bahia-blanca-og.webp" />
+    <meta property="og:url" content="https://alexcazanobe.github.io/wdd231/chamber/directory.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+
+    <link rel="stylesheet" href="../chamber/styles/normalize.css">
+    <link rel="stylesheet" href="../chamber/styles/directory_large.css">
+    <link rel="stylesheet" href="../chamber/styles/directory_small.css">
+
+    <script src="scripts/join.mjs" type="module"></script>
+
+</head>
+<body>
+    <header>
+
+        <div class="branding">
+        <img src="../chamber/images/chamber-bahiablanca.png" alt="Bahia Blanca Chamber of Commerce logo">
+
+        <div class="header-title">
+        <span>Bahia Blanca</span>
+        <span>Chamber of Commerce</span>
+        </div>
+
+         <button id="hamButton" class="ham-menu" aria-label="Open navigation menu">
+            <span></span><span></span><span></span>
+         </button>
+
+        </div>
+
+       
+
+        <nav id="navBar">
+            <ul>
+                <li><a href="../chamber/index.html">Home</a></li>
+                <li><a href="../chamber/directory.html">Directory</a></li>
+                <li><a href="../chamber/join.html" class="active">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <h1>Join</h1>
+
+        <div class="join-content">
+            <div class="join-form">
+                <h2>Aplication Form</h2>
+                <form method="get" action="thankyou.html" id="joinForm">
+                    <label class="form-element">
+                        First Name
+                        <input class="field44px" type="text" name="first-name" title="Applicant's First Name" required autocomplete="given-name" />
+                    </label>
+                    <label class="form-element">
+                        Last Name
+                        <input class="field44px" type="text" name="last-name" title="Applicant's Last Name" required autocomplete="family-name" />
+                    </label>
+                    <label class="form-element">
+                        Organizational Title
+                        <input class="field44px" type="text" name="org-title" title="Applicant's Organizational Title" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}" />
+                    </label>
+                    <label class="form-element">
+                        Email Address
+                        <input class="field44px" type="email" name="email" title="Applicant's Email Address" required autocomplete="email" placeholder="example@domain.com" />
+                    </label>
+                    <label class="form-element">
+                        Mobile Phone
+                        <input class="field44px" type="tel" name="mobile" title="Applicant's Mobile Phone Number" required autocomplete="tel" />
+                    </label>
+                    <label class="form-element">
+                        Organization Name
+                        <input class="field44px" type="text" name="organization" title="Business or Organization Name" required autocomplete="organization" />
+                    </label>
+                    <fieldset class="form-element">
+                        <legend>Membership Level</legend>
+                        <div id="form-radio">
+                            <label><input type="radio" name="membership" value="np" required> NP Membership (No Fee)</label>
+                            <label><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                            <label><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                            <label><input type="radio" name="membership" value="gold"> Gold Membership</label>
+                        </div>
+                    </fieldset>
+                    <label class="form-element">
+                        Organization Description
+                        <textarea class="field" name="org-description" title="Business or Organization Description"></textarea>
+                    </label>
+                    <input type="hidden" id="timestamp" name="timestamp" value="">
+                    <input type="submit" value="I Want To Join!" class="form-button field44px">
+                </form>
+
+
+
+            </div>
+
+
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="contact">
+            <p><strong>Bahia Blanca Chamber of Commerce</strong></p>
+            <p>Alsina 65</p>
+            <p>Bahia Blanca, Argentina</p>
+            <p>info@bahiablancacc.org</p>
+            <p>(+54 9) 291 9999999</p>
+
+        </div>
+
+        <div class="social-media">
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" >
+                    <img src="../chamber/images/youtube.svg" alt="Youtube" width="32" height="32">
+                </a>
+
+                <a href="https://x.com/X." target="_blank" rel="noopener noreferrer">
+                    <img src="../chamber/images/x.svg" alt="X" width="30" height="30">
+                </a>
+
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="../chamber/images/facebook.svg" alt="Facebook" width="32" height="32">
+                </a>
+        </div>
+
+        <div>
+            <p>WDD231 Class Project</p>
+            <p>Alex Cazanobe</p>
+            <p><span id="currentyear"></span> &copy; Bahia Blanca Chamber of Commerce</p>
+            <p>Last modified: <span id="lastModified"></span></p>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
