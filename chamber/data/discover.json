@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Biblioteca Rivadavia",
+        "image": "../chamber/images/biblioteca-rivadavia.webp",
+        "address": "Rivadavia 250, Bahía Blanca, Buenos Aires, Argentina",
+        "description": "A historic library in Bahía Blanca, offering a vast collection of books and resources for the community."
+    },
+    {
+        "title": "Malvinas Memorial",
+        "image": "../chamber/images/malvinas-memorial.webp",
+        "address": "Paseo de la Mujer, Bahía Blanca, Buenos Aires, Argentina",
+        "description": "A memorial dedicated to the soldiers who fought in the Malvinas War, located in a serene park setting."
+    },
+    {
+        "title": "Teatro Municipal de Bahía Blanca",
+        "image": "../chamber/images/teatro-municipal.webp",
+        "address": "Av. Colón 1551, Bahía Blanca, Buenos Aires, Argentina",
+        "description": "The main theater in Bahía Blanca, hosting a variety of performances including plays, concerts, and cultural events."
+    },
+    {
+        "title": "Parque de Mayo",
+        "image": "../chamber/images/parque-de-mayo.webp",
+        "address": "Av. Colón 2500, Bahía Blanca, Buenos Aires, Argentina",
+        "description": "A large public park in the city center, perfect for picnics, walks, and outdoor activities."
+    },
+
+    {
+        "title": "Pehuenco",
+        "image": "../chamber/images/pehuenco.webp",
+        "address": "Bahía Blanca, Buenos Aires, Argentina",
+        "description": "A picturesque coastal area near Bahía Blanca, known for its beautiful beaches and natural scenery."
+    },
+    {
+        "title": "Plaza Rivadavia",
+        "image": "../chamber/images/plaza-rivadavia.webp",
+        "address": "Rivadavia 100, Bahía Blanca, Buenos Aires, Argentina",
+        "description": "The main square of Bahía Blanca, surrounded by important buildings and a popular gathering place for locals."
+    },
+
+    {
+        "title": "Sierra de la Ventana",
+        "image": "../chamber/images/sierra-de-la-ventana.webp",
+        "address": "Bahía Blanca, Buenos Aires, Argentina",
+        "description": "A  stunning mountain range located a short drive from Bahía Blanca, offering hiking trails and breathtaking views."
+    },
+    {
+        "title": "Universidad Nacional del Sur",
+        "image": "../chamber/images/universidad-nacional.webp",
+        "address": "Av. Alem 1253, Bahía Blanca, Buenos Aires, Argentina",
+        "description": "A  prestigious university in Bahía Blanca, known for its research and academic programs. The campus features modern facilities and a vibrant student community."
+    }
+]

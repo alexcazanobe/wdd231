@@ -184,3 +184,29 @@
         max-width: 100%;
     }
 }
+
+@media (max-width: 1024px) {
+  .discover-grid {
+    grid-template-areas:
+      "card1 card2"
+      "card3 card4"
+      "card5 card6"
+      "card7 card8";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .discover-grid {
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3"
+      "card4"
+      "card5"
+      "card6"
+      "card7"
+      "card8";
+    grid-template-columns: 1fr;
+  }
+}

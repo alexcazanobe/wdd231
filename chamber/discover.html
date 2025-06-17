@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bahia Blanca Chamber Of Commerce Directory</title>
-    <meta name="description" content="Bahia Blanca Chamber Of Commerce webpage">
+    <title>Bahia Blanca Chamber Of Commerce Join Us</title>
+    <meta name="description" content="Bahia Blanca Chamber Of Commerce join page">
     <meta name="author" content="Alex Cazanobe">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="../chamber/styles/directory_large.css">
     <link rel="stylesheet" href="../chamber/styles/directory_small.css">
 
-    <script src="scripts/directory.js" defer></script>
+    <script type="module" src="scripts/discover.mjs"></script>
 
 </head>
 <body>
@@ -38,7 +38,7 @@
         <span>Chamber of Commerce</span>
         </div>
 
-         <button id="hamButton" class="ham-menu">
+         <button id="hamButton" class="ham-menu" aria-label="Open navigation menu">
             <span></span><span></span><span></span>
          </button>
 
@@ -49,26 +49,17 @@
         <nav id="navBar">
             <ul>
                 <li><a href="../chamber/index.html">Home</a></li>
-                <li><a href="../chamber/directory.html" class="active">Directory</a></li>
-                <li><a href="../chamber/join.html">Join</a></li>
-                <li><a href="../chamber/discover.html">Discover</a></li>
+                <li><a href="../chamber/directory.html">Directory</a></li>
+                <li><a href="../chamber/join.html" >Join</a></li>
+                <li><a href="../chamber/discover.html" class="active">Discover</a></li>
             </ul>
 
         </nav>
     </header>
 
     <main>
-
-        <div class="centered-header">
-            <h1>Directory</h1>
-            <p>Welcome to the Bahia Blanca Chamber of Commerce Directory. Here you can find a list of our member companies.</p>
-        </div>
-        
-        <div class="buttons">
-            <button id="memberCards">Member Cards</button>
-            <button id="memberList">Member List</button>
-        </div>
-        <div class="companies grid"></div>
+       <aside id="visit-message"></aside>
+        <section class="discover-grid" id="discoverGrid"></section>
     </main>
 
     <footer>
