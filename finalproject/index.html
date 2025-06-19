@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ElectroDima S.A - Your trusted partner in electronical solutions.">
+    <meta name="author" content="Alex Cazanobe">
+
+    <meta property="og:title" content="ElectroDima S.A - Expert Crane Technical Service">
+    <meta property="og:description" content="ElectroDima S.A is your trusted partner in crane technical service, offering expert solutions for all your crane needs.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alexcazanobe.github.io/wdd231/finalproject/index.html">
+    <meta property="og:image" content="https://alexcazanobe.github.io/wdd231/finalproject/images/hero.webp">
+    <meta property="og:site_name" content="ElectroDima S.A">
+
+    <title>ElectroDima S.A </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/favicon2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/electrodima-large.css">
+    <link rel="stylesheet" href="styles/electrodima-small.css">
+
+    <script type="module" src="scripts/home.mjs" ></script>
+
+</head>
+<body>
+    <header>
+        <div class="branding">
+        <img src="images/electrodima-logo.png" alt="Electrodima S.A logo" >
+
+        <div class="header-title">
+        <span></span>
+        <span></span>
+        </div>
+
+         <button id="hamButton" class="ham-menu" aria-label="Open navigation menu">
+            <span></span><span></span><span></span>
+         </button>
+
+        </div>
+
+       
+
+        <nav id="navBar">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="reserve.html">Reserve</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section-->
+         <section class="hero">
+            <div class="hero-content">
+                <h1>Expert Crane Technical Service</h1>
+                <p>ElectroDima S.A is your trusted partner in crane technical service, offering expert solutions for all your crane needs.</p>
+                <a href="reserve.html" class="cta-button">Book Technical Assistance</a>
+            </div>
+            <img src="images/hero.webp" alt="Crane Service Image">
+
+         </section>
+
+        <!-- Services Section -->
+         <section class="services">
+            <h2>Our Services</h2>
+            <div class="services-cards">
+                <article class="service-card">
+                    <h3>Electronics</h3>
+                    <img src="images/electronic-service.webp" alt="electonic service image">
+                    <button class="service-info-btn" data-dialog="dialog-electronics">More Info</button>
+                    <dialog id="dialog-electronics">
+                        <h4>Electronic Service</h4>
+                        <p>We offer specialized electronic repair services for heavy-duty cranes, focusing on the diagnosis, maintenance, and restoration of critical electronic systems. This includes control units, sensor arrays, wiring harnesses, displays, joysticks, and safety systems. Our goal is to ensure reliable crane operation by addressing faults in electronic components that affect precision, safety, and overall performance.</p>
+                        <button class="close-dialog">Close</button>
+                    </dialog>
+                </article>
+
+                <article class="service-card">
+                    <h3>Light Hydraulics</h3>
+                    <img src="images/hydraulic-service.webp" alt="light hydraulics service image">
+                    <button class="service-info-btn" data-dialog="dialog-hydraulics">More Info</button>
+                    <dialog id="dialog-hydraulics">
+                        <h4>Light Hydraulics Service</h4>
+                        <p>We provide specialized technical service in light-duty hydraulic systems for heavy-duty cranes. This includes maintenance, diagnostics, and repair of auxiliary hydraulic components such as cab tilting systems, cooling circuits, hydraulic accessories, and control modules. While these systems don’t handle lifting loads, they are essential for the crane’s performance, safety, and operator comfort. Our service ensures these support systems work reliably and efficiently.</p>
+                        <button class="close-dialog">Close</button>
+                    </dialog>
+                </article>
+            </div>
+         </section>
+
+         <!-- Clients Sections-->
+          <section class="clients">
+            <h2>Our Clients</h2>
+            <div class="clients-cards" id="clientsCards"></div>
+          </section>
+
+    </main>
+
+    <footer>
+        <div class="contact">
+            <p><strong>ElectroDima S.A</strong></p>
+            <p>Roca 256</p>
+            <p>Bahia Blanca, Argentina</p>
+            <p>info@electrodima.com</p>
+            <p>(+54 9) 291 9999999</p>
+
+        </div>
+
+        <div class="social-media">
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" >
+                    <img src="images/youtube.svg" alt="Youtube" width="32" height="32">
+                </a>
+
+                <a href="https://x.com/X." target="_blank" rel="noopener noreferrer">
+                    <img src="images/x.svg" alt="X" width="30" height="30">
+                </a>
+
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="images/facebook.svg" alt="Facebook" width="32" height="32">
+                </a>
+        </div>
+
+        <div>
+            
+            <p><span id="currentyear"></span> &copy; Electrodima S.A</p>
+            <p>Last modified: <span id="lastModified"></span></p>
+        </div>
+
+        <p >
+            <a href="https://www.loom.com/share/9833c3c88bd64035b83df93ec1511fa4?sid=025a0f4a-a112-4eb3-92e9-d8f681b07f06" target="_blank" rel="noopener" class="footer-video-link">
+                📹 JavaScript Project Demo Video
+            </a>
+        </p>
+
+    </footer>
+    
+
+    
+</body>
+</html>

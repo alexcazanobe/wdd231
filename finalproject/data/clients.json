@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Movil Bahia",
+        "logo": "images/movil-logo.webp",
+        "info": "Movil Bahia is a leading crane company with over 30 years of experience. They provide lifting services and equipment rental, offering a modern fleet, nationwide coverage, and reliable 24/7 technical support for all types of projects."
+    },
+    {
+        "name": "Montonva",
+        "logo": "images/montova-logo.jpg",
+        "info": "Montonva specializes in heavy-lifting and transport services with more than 10 years in the industry. Their modern fleet includes cranes, aerial platforms, and special vehicles, providing 24/7 support and personalized solutions across Argentina."
+    },
+    {
+        "name": "Transporte Dolores Parra",
+        "logo": "images/dolores-parra-logo.jpg",
+        "info": "Transporte Dolores Parra offers heavy-duty transport and crane services. Based in Plottier, they focus on logistics, industrial assemblies, hydro-crane operations, and drilling equipment, with a modern fleet and experienced staff."
+    },
+    {
+        "name": "Lifter",
+        "logo": "images/lifter-logo.png",
+        "info": "Lifter is a family-run company with over 25 years of experience in crane rental and sales. Located in Quequén, they provide a modern fleet of cranes, trailers, and forklifts, with nationwide service and expert technical support."
+    },
+    {
+        "name": "Gruas San Blas",
+        "logo": "images/gruas-sanblas-logo.svg",
+        "info": "Gruas San Blas is a crane rental company with extensive experience in heavy lifting and transport. They offer a modern fleet and specialized equipment, delivering reliable solutions for industrial and construction projects in Argentina."
+    },
+    {
+        "name": "H.O.S Servicios",
+        "logo": "images/hos-logo.png",
+        "info": "H.O.S Servicios is based in Bahía Blanca and provides construction and industrial services. With over 20 years of experience, they offer civil works, mechanical assembly, logistics, and equipment rentals for major projects nationwide."   
+    }
+]

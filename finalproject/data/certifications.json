@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Liebherr",
+        "logo": "images/liebherr-logo.png"
+    },
+    {
+        "name": "Terex",
+        "logo": "images/terex-logo.png"
+    },
+    {
+        "name": "Grove",
+        "logo": "images/grove-logo.png"
+    },
+    {
+        "name": "Manitowoc",
+        "logo": "images/manitowoc-logo.webp"
+    },
+    {
+        "name": "Demag",
+        "logo": "images/demag-logo.webp"
+    },
+    {
+        "name": "Link-Belt",
+        "logo": "images/link-belt-logo.png"
+    }
+
+]
